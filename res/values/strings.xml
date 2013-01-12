@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdSMSLoc</string>
+    <string name="app_desc">Adroid SMS Locator.</string>
+
+    <string name="password_insert">Insert the Password</string>
+    
+    <string name="cat_about">About</string>
+    <string name="ab_license">License</string>
+    <string name="ab_code">Code</string>
+    <string name="ab_help">Help</string>
+
+    <string name="cat_sec">Security</string>
+    <string name="password">Password</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="sec_password_desc">Password using for auth the response</string>
+    <string name="sec_auth_mode">Auth Mode</string>
+    <string name="sec_auth_mode_desc">Select the Auth Mode for get save your device</string>
+    <string name="sec_auth_mode_dialog">Set the Auth Mode</string>
+    <string name="sec_response_other">Response to other</string>
+    <string name="sec_response_other_desc">Allow send the response to other phone number</string>
+    <string name="sec_log_sms">Save the SMS</string>
+
+    <string name="cat_util">Utils</string>
+    <string name="util_geo">SMS sender</string>
+    <string name="util_geo_desc">Allow send SMS with geoposition [GPS]</string>
+    <string name="util_call">Call sender</string>
+    <string name="util_call_desc">Allow send Calls [CALL]</string>
+    <string name="error_call">Error calling</string>
+    <string name="util_video_call">Video calls sender</string>
+    <string name="error_vcall">Error making the video calling</string>
+    <string name="util_video_call_desc">Allow send Video calls [VCALL]</string>
+
+    <string name="cat_geo">Geoposition</string>
+    <string name="geo_phone_cell">Phone Cell</string>
+    <string name="geo_phone_cell_desc">Send information about phone cell</string>
+    <string name="geo_gps">GPS</string>
+    <string name="geo_gps_desc">Send information about gps</string>
+    <string name="geo_network">Network GPS</string>
+    <string name="geo_network_desc">Send information about gps using network</string>
+    <string name="geo_wifi">WiFi info</string>
+    <string name="geo_wifi_desc">Send information about wifis ids</string>
+    <string name="geo_timeout">Timeout</string>
+    <string name="geo_timeout_desc">Timeout for get the GPS response</string>
+</resources>

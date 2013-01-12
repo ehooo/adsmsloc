@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/cat_sec">
+        <EditTextPreference
+            android:key="password"
+            android:title="@string/password"
+            android:summary="@string/sec_password_desc"
+            android:dialogTitle="@string/password" />
+        <ListPreference
+            android:key="auth_mode"
+            android:defaultValue="2"
+            android:title="@string/sec_auth_mode"
+            android:summary="@string/sec_auth_mode_desc"
+            android:dialogTitle="@string/sec_auth_mode_dialog"
+            android:entries="@array/auth_mode"
+            android:entryValues="@array/auth_mode_code"/>
+        <CheckBoxPreference
+            android:key="response_other"
+            android:defaultValue="false"
+            android:title="@string/sec_response_other"
+            android:summary="@string/sec_response_other_desc" />
+        <CheckBoxPreference
+            android:key="log_sms"
+            android:defaultValue="true"
+            android:title="@string/sec_log_sms"
+            android:summary="@string/sec_log_sms" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cat_util">
+        <CheckBoxPreference
+            android:key="geo"
+            android:defaultValue="true"
+            android:title="@string/util_geo"
+            android:summary="@string/util_geo_desc" />
+        <CheckBoxPreference
+            android:key="call"
+            android:defaultValue="true"
+            android:title="@string/util_call"
+            android:summary="@string/util_call_desc" />
+        <CheckBoxPreference
+            android:key="vcall"
+            android:defaultValue="false"
+            android:title="@string/util_video_call"
+            android:summary="@string/util_video_call_desc" />    
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cat_geo">
+        <CheckBoxPreference
+            android:key="gps"
+            android:defaultValue="true"
+            android:title="@string/geo_gps"
+            android:summary="@string/geo_gps_desc" />
+        <CheckBoxPreference
+            android:key="network"
+            android:defaultValue="true"
+            android:title="@string/geo_network"
+            android:summary="@string/geo_network_desc" />
+        <CheckBoxPreference
+            android:key="phone_cell"
+            android:defaultValue="false"
+            android:title="@string/geo_phone_cell"
+            android:summary="@string/geo_phone_cell_desc" />  
+        <CheckBoxPreference
+            android:key="wifi"
+            android:defaultValue="false"
+            android:title="@string/geo_wifi"
+            android:summary="@string/geo_wifi_desc" />
+        <EditTextPreference
+            android:key="timeout"
+            android:title="@string/geo_timeout"
+            android:summary="@string/geo_timeout_desc"
+            android:dialogTitle="@string/geo_timeout"
+            android:numeric="integer"
+			android:maxLength="3" />
+    </PreferenceCategory>
+</PreferenceScreen>

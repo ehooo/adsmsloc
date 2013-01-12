@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="auth_mode">
+      <item>Nothing is requiered</item>
+      <item>Password requiered</item>
+      <item>Contact requiered</item>
+      <item>Password and Contact requiered</item>
+   </string-array>
+   <string-array name="auth_mode_code">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+</resources>
